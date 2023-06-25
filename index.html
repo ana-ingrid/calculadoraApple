@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="limparDisplay()" class="botaoCorCinza">C</button>
+            <button onclick="numeroNegativo()" class="botaoCorCinza">+/-</button>
+            <button onclick="operacaoDisplay('%')" class="botaoCorCinza">%</button>
+     
+            <button onclick="operacaoDisplay('/')" class="botaoCorLaranja">÷</button>
+
+            <button onclick="operacaoDisplay('9')" class="botaoCorNeutra">9</button>
+            <button onclick="operacaoDisplay('8')" class="botaoCorNeutra">8</button>
+            <button onclick="operacaoDisplay('7')" class="botaoCorNeutra">7</button>
+            
+            <button onclick="operacaoDisplay('*')" class="botaoCorLaranja">x</button>
+                        
+            <button onclick="operacaoDisplay('6')" class="botaoCorNeutra">6</button>
+            <button onclick="operacaoDisplay('5')" class="botaoCorNeutra">5</button>
+            <button onclick="operacaoDisplay('4')" class="botaoCorNeutra">4</button>
+            
+            <button onclick="operacaoDisplay('-')" class="botaoCorLaranja">-</button>
+            
+            <button onclick="operacaoDisplay('3')" class="botaoCorNeutra">3</button>
+            <button onclick="operacaoDisplay('2')" class="botaoCorNeutra">2</button>
+            <button onclick="operacaoDisplay('1')" class="botaoCorNeutra">1</button>
+            
+            <button onclick="operacaoDisplay('+')" class="botaoCorLaranja">+</button>
+            <button onclick="operacaoDisplay('0')" class="botaoZero botaoCorNeutra">0</button>
+            <button onclick="operacaoDisplay('.')" class="botaoPonto botaoCorNeutra">,</button>
+            
+            <button onclick="calcular()" class="botaoCorLaranja">=</button> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
