@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <div class="calculator">
+    <div class="calculadora">
         <input type="text" id="display" readonly>
-        <div class="buttons">
+        <div class="botoes">
             <button onclick="limparDisplay()" class="botaoCorCinza">C</button>
-            <button onclick="numeroNegativo()" class="botaoCorCinza">+/-</button>
-            <button onclick="operacaoDisplay('%')" class="botaoCorCinza">%</button>
+            <button onclick="numeroNegativoOuPositivo()" class="botaoCorCinza">+/-</button>
+            <button onclick="calcularPorcentagem()" class="botaoCorCinza">%</button>
      
             <button onclick="operacaoDisplay('/')" class="botaoCorLaranja">÷</button>
 
@@ -35,7 +35,7 @@
             
             <button onclick="operacaoDisplay('+')" class="botaoCorLaranja">+</button>
             <button onclick="operacaoDisplay('0')" class="botaoZero botaoCorNeutra">0</button>
-            <button onclick="operacaoDisplay('.')" class="botaoPonto botaoCorNeutra">,</button>
+            <button onclick="operacaoDisplay(',')" class="botaoPonto botaoCorNeutra">,</button>
             
             <button onclick="calcular()" class="botaoCorLaranja">=</button> 
         </div>

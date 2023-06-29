@@ -4,10 +4,9 @@ body {
   justify-content: center;
 }
 
-.calculator {
+.calculadora {
     width: 370px;
     height: 600px;
-    /* margin: 0 auto; */
     background: black;
     display: flex;
     flex-direction: column;
@@ -26,7 +25,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  .buttons {
+  .botoes {
     display: grid;
     grid-template-columns: repeat(4, 25%);
   }
@@ -43,6 +42,7 @@ body {
 
   .botaoCorCinza {
     background: #777474;
+    color: #ffffff;
   }
 
   .botaoCorCinza:active {
@@ -70,8 +70,10 @@ body {
   }
 
   .botaoZero {
-    width: 170px;
+    width: 160px;
     border-radius: 70px;
+    text-align: start;
+    padding-left: 30px;
   }
 
   .botaoPonto {
