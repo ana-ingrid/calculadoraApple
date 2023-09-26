@@ -11,4 +11,4 @@
 <div align="center">
 <h2>Pré visualização</h2>
 <br>
-<img src="imgs/imgCalculadora.jpg" align="center" >
+<img src="images/imgCalculadora.jpg" align="center" >
